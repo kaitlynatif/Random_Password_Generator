@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  
+  input {
+    border: none;
+    background: transparent;
+    outline: none;
+  }
+  
+  body {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    background-attachment: fixed;
+    background-image: linear-gradient(45deg, #F77CEC 25%, #F79C59 70%);
+    background-position: 0% 0%;
+    background-repeat: repeat;
+    background-size: auto;
+  }
+  body #password-generator {
+    padding: 2rem;
+    margin: 0 auto;
+    width: 500px;
+    border-radius: 3px;
+    box-shadow: 0 0 2px #1f1f1f;
+    border: 3px solid #d5d4ff;
+    position: relative;
+    background: white;
+    white-space: nowrap;
+  }
+  body #password-generator #password-output {
+    text-align: center;
+    font-size: 2rem;
+    margin: 0 auto 1.2rem;
+    width: 100%;
+    color: rgb(45, 2, 164);
+    padding: 5px;
+    box-shadow: 0 0 20px rgba(51, 0, 253, 0.45);
+  }
+  body #password-generator .range {
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    max-width: 70%;
+    margin-left: 15%;
+    padding: .4rem 1rem .8rem 2.5rem;
+    border: 1.5px solid rgb(37, 8, 181);
+  }
+  body #password-generator .range input[type=range] {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 40%;
+    max-width: 100%;
+    height: 15px;
+    padding: 0px;
+    background: #7a7a82;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: 0.2s;
+    transition: opacity 0.2s;
+    box-shadow: 0 2px 35px rgba(0, 0, 0, 0.4555);
+    border-radius: 10px;
+    cursor: pointer;
+    scroll-behavior: smooth;
+    z-index: 1;
+  }
+  body #password-generator .range input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    background: rgb(87, 9, 222);
+    cursor: pointer;
+    border-radius: 18px;
+    transition: 0.5s ease;
+  }
+  
+  body #password-generator .range #display-password-length {
+    text-align: center;
+    font-size: 1.4rem;
+    width: 80px;
+    padding-top: 10px;
+  }
+  body #password-generator .flex {
+    margin: 1rem 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  body #password-generator .flex input {
+    display: none;
+  }
+  body #password-generator .flex input:checked + label {
+  
+    border: 2px solid rgb(205, 151, 12);
+    background: rgb(173, 144, 82);
+    filter: brightness(120%);
+    transform: scale(1.1);
+  }
+  body #password-generator .flex label {
+    border: 2px solid #3605bb;
+    border-radius: 4px;
+    padding: 0.6rem;
+    cursor: pointer;
+    font-size: 1.3rem;
+    text-align: center;
+    display: block;
+    width: 80px;
+    transition: 0.2s ease;
+  }
+  
+  body #password-generator button {
+    outline: none;
+    background: #4323c6;
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    margin: 0.5rem 0;
+    border-radius: 3px;
+    box-shadow: 1px 1px 6px 1px #8f8a8a;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    transition: 0.2s ease;
+    cursor: pointer;
+  }
+  body #password-generator button:hover {
+     background: rgb(173, 118, 22);
+  }
