@@ -8,10 +8,16 @@
   <link rel="stylesheet" href="./Assets/style.css">
 </head>
 <body>
+  <!-- This is the HTML code for the box that will contain the password generator. -->
   <div id="password-generator">
 
+    <!-- This is the HTML code for the password viewing display. -->
       <input value="Password Generator" id="password-output">
 
+      <!-- This is the HTML code for the range slider and character length display.
+      I have used two input boxes here: the first input box to create the slider and the second input box to create the display.
+      When you change the value of this range, the value in the display will change.
+      The input boxes are connected to each other using JavaScript. -->
       <div class="range">
         <input type="range" min="8" max="128" step="1" value="8" id="password-length"
           oninput="document.getElementById('display-password-length').value=this.value">
@@ -20,6 +26,7 @@
           oninput="document.getElementById('password-length').value=this.value">
       </div>
 
+      <!-- This is the HTML code for the selection boxes to customize the character type of the password. -->
       <div class="flex">
         <input type="checkbox" id="lowercase" checked="checked">
         <label for="lowercase">a-z</label>
@@ -34,6 +41,7 @@
         <label for="symbols">!-?</label>
       </div>
 
+      <!-- This is the button to generate the password. -->
       <button id="generateButton" type="button" onclick="generatePassword()">Generate</button>
 
     </div>
