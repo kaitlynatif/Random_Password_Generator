@@ -47,7 +47,7 @@
   }
   /* This is the styling for the range slider and viewing display. I have used two input boxes here.
   The first input box to create the slider and the second input box to create the display.
-  When you change the value of this range, the value in that display will change.
+  When you change the value of this range, the value in the display will change.
   The input boxes are connected to each other using JavaScript. */
   body #password-generator .range {
     justify-content: space-between;
@@ -105,7 +105,7 @@
   body #password-generator .flex input {
     display: none;
   }
-  /* This is the styling for password customization selection boxes. */
+  /* This is the styling for password customization selection boxes when they are checked. */
   body #password-generator .flex input:checked + label {
   
     border: 2px solid rgb(205, 151, 12);
@@ -113,7 +113,7 @@
     filter: brightness(120%);
     transform: scale(1.1);
   }
-  /* This is the styling for password customization selection boxes. */
+  /* This is the styling for the text of the password customization selection boxes. */
   body #password-generator .flex label {
     border: 2px solid #6c05bb;
     border-radius: 4px;
@@ -140,7 +140,7 @@
     transition: 0.2s ease;
     cursor: pointer;
   }
-  /* This is the styling for password generation button. */
+  /* This is the styling for password generation button upon hover of the cursor. */
   body #password-generator button:hover {
      background: rgb(173, 118, 22);
   }
