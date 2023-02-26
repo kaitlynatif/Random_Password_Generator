@@ -42,7 +42,7 @@ Below is an image of the user interface of the password generator as displayed t
 
 ![Alt text](Assets/password-generator-screenshot.png?raw=true "JavaScript Password Generator")
 
-URL to deployed game:
+URL to deployed application:
 https://kaitlynatif.github.io/Challenge_03/
 
 URL to GitHub repository:
