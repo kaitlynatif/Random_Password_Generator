@@ -1,5 +1,7 @@
 # Challenge_03: JavaScript Password Generator
 
+A web based application to generate random passwords utilizing selected criteria.
+
 ## User Story
 
 ```md
@@ -29,12 +31,14 @@ THEN the password is either displayed in an alert or written to the page
 ```
 
 ## Description
-Built from scratch a random password generator using HTML, CSS, and JavaScript.
+Built a password generator using HTML, CSS, and JavaScript.
 The password generator includes prompts for password criteria such as character length and character type.
 A password is then generated that matches the selected criteria.
 A feature to copy and paste the password to the clipboard has also been included.
 
 ## Usage
+
+Below is an image of the user interface of the password generator as displayed to the user:
 
 ![Alt text](Assets/password-generator-screenshot.png?raw=true "JavaScript Password Generator")
 
