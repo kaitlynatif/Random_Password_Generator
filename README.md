@@ -36,17 +36,15 @@ The password generator includes prompts for password criteria such as character 
 A password is then generated that matches the selected criteria.
 A feature to copy and paste the password to the clipboard has also been included.
 
-## Usage
-
 Below is an image of the user interface of the password generator as displayed to the user:
 
 ![Alt text](Assets/password-generator-screenshot.png?raw=true "JavaScript Password Generator")
 
 URL to deployed application:
-https://kaitlynatif.github.io/Challenge_03/
+https://kaitlynatif.github.io/Random_Password_Generator/
 
 URL to GitHub repository:
-https://github.com/kaitlynatif/Challenge_03
+https://github.com/kaitlynatif/Random_Password_Generator
 
 For any questions, please contact me at kaitlynatif90@hotmail.com
 
