@@ -1,4 +1,4 @@
-# Challenge_03: JavaScript Password Generator
+# JavaScript Password Generator
 
 A web based application to generate random passwords utilizing selected criteria.
 
